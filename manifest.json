@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "LolilandAutoBonus",
+  "version": "0.1",
+  "description": "Сollects bonus every 24 hours",
+  "permissions": ["storage", "alarms", "scripting", "tabs"],
+  "host_permissions": ["https://loliland.ru/ru/cabinet/bonus"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "awa"
+  },
+
+  "icons": {
+    "128": "icon.jpg"
+  }
+
+}
